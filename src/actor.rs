@@ -12,7 +12,7 @@ pub trait Actor: Sized + Send + 'static {
         std::any::type_name::<Self>()
     }
 }
-
+ 
 /// Basic actor framework
 #[derive(Debug, Default)]
 pub struct System {
