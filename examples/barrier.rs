@@ -40,3 +40,4 @@ fn check_files() {
 fn remove_files() {
     fs::remove_dir_all(FILES_PATH).unwrap();
 }
+ 
